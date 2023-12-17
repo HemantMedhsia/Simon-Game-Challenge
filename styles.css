@@ -1,0 +1,100 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  margin-bottom: 3%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+#instructions {
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+  background-color: #011F3F;
+  height: 500px;
+  width: 700px;
+  border: 10px solid black;
+  border-radius: 20%;
+  padding: 20px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.2rem;
+  margin:  0%;
+  color: #FEF2BF;
+  line-height: 1.5;
+  cursor: pointer;
+}
+
+.Inst {
+  display: block;
+  margin: auto;
+  height: 40px;
+  width: 250px;
+  justify-content: center;
+  text-align: center;
+  background-color: #011F3F;
+  border: 6px solid black;
+  padding: auto;
+  border-radius: 25%;
+  color: #FEF2BF;
+  font-size: 1.1rem;
+  font-family: 'Press Start 2P', cursive;
+  cursor: pointer;
+
+}
+
+.Inst:hover {
+  box-shadow: 0 0 20px white;
+  opacity: 0.6;
+}
+
+#instructions:hover {
+  box-shadow: 0 0 20px white;
+  opacity: 0.6;
+}
